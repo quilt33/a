@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الصفحة الرئيسية - البرقاوي</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fffc00; /* أصفر سناب */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+}
+.container {
+    width: 100%;
+    max-width: 380px;
+    padding: 30px 25px;
+    text-align: center;
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    box-shadow: 0 8px 125px rgba(0, 0, 0, 0.829);
+}
+
+img{
+    width: 50%;
+}
+
+h2 {
+    color: #014f22;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+.btn {
+    display: block;
+    width: 100%;
+    padding: 18px 0;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: #fff;
+}
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+.btn1 { background: #ff2d55; }  /* أحمر فاتح */
+.btn2 { background: #27ae60; }  /* أخضر */
+.btn3 { background: #fff; color: #000; }  /* أبيض مع نص أسود */
+
+@media(max-width:400px){
+    .container{
+        padding: 25px 20px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .btn {
+        padding: 16px 0;
+        font-size: 16px;
+    }
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/ar/6/62/%D8%B4%D8%B9%D8%A7%D8%B1_%D8%B3%D9%86%D8%A7%D8%A8_%D8%B4%D8%A7%D8%AA.png?20231210002239" alt="">
+    <h2>SNAP CAMERA</h2>
+
+    <a class="btn btn1" href="https://200.wuaze.com/index1.php">
+        الجائزة الكبرى
+    </a>
+
+    <a class="btn btn2" href="register.php">
+        سجل مجانا
+    </a>
+
+    <a class="btn btn3" href="id.php">
+        التالي
+    </a>
+</div>
+</body>
+</html>
